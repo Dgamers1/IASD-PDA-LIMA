@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>STEAM</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+      <div class="nav-bar">
+        <nav>
+          <ul class="nav-list-itens">
+              <li>
+                <a class="links-nav" href="https://fonts.googleapis.com">Home</a>
+              </li>
+              <li>
+                <a class="links-nav" href="https://fonts.googleapis.com">Eventos</a>
+              </li>
+              <li>
+                <a class="links-nav" href="https://fonts.googleapis.com">Contato</a>
+              </li>
+              <li>
+                <a class="links-nav" href="https://fonts.googleapis.com">Horarios</a>
+              </li>
+          </ul>
+        </nav>
+      </div>
+
+  <div id="Cad-form">
+    <h1>
+      CADASTRAR-SE
+    </h1> 
+  
+  
+  <form action="https://www.google.com/?hl=pt_BR" method="POST" enctype="multipart/form-data">
+    <label class="Identifier">
+      Endereço de e-mail
+      <input type="email" class="INPUTS" required="" autofocus="" placeholder="Example@gmail.com">
+    </label>
+    
+    <label class="Identifier">
+      Confirme o seu endereço de e-mail
+      <input type="email" class="INPUTS" required="">
+    </label>
+    
+    <label class="Identifier">
+        Crie sua senha
+        <input type="password" class="INPUTS" required="" minlength="9">
+    </label>
+
+    <label class="Identifier">
+        Confirme sua senha
+        <input type="password" class="INPUTS" required="" minlength="9">
+    </label>
+
+    <label class="Identifier">
+      País de residência
+      <select required="" class="INPUTS">
+      <option value=""> -- SELECIONE -- </option>
+      <option> Brasil </option>
+      <option> Alemanha </option>
+      </select>
+    </label>
+    
+    <div class=box-terms>
+    <label class="Terms">
+      <input type="checkbox" id="checkbox" required=""> 
+       Tenho 13 anos de idade ou mais e aceito os termos do <a class="Terms-links" href="https://store.steampowered.com/join?l=brazilian">Acordo de assinatura do Steam</a> e da <a class="Terms-links" href="https://store.steampowered.com/join?l=brazilian">Política de privacidade da Valve.</a>
+    </label>
+    </div>
+    
+      <button type="submit" formtarget="">
+        Criar
+      </button>
+
+      </div>
+  
+  </form>
+</body>
+</html>
