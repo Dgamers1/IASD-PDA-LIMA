@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>STEAM</title>
+<link rel="icon" type="image/png" href="images/png-transparent-kress-memorial-seventh-day-adventist-church-providence-spanish-sda-woollahra-seventh-day-adventist-church-church-angle-logo-logo-vector-thumbnail.png">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IASD PAU DA LIMA</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -11,20 +12,20 @@
 </head>
 <body>
 
-      <div class="nav-bar">
+      <div class="menu-bar">
         <nav>
-          <ul class="nav-list-itens">
+          <ul class="menu-bar-itens">
               <li>
-                <a class="links-nav" href="https://fonts.googleapis.com">Home</a>
+                <a class="menu-links" href="Pages/Home/Home.html">Home</a>
               </li>
               <li>
-                <a class="links-nav" href="https://fonts.googleapis.com">Eventos</a>
+                <a class="menu-links" href="https://fonts.googleapis.com">Eventos</a>
               </li>
               <li>
-                <a class="links-nav" href="https://fonts.googleapis.com">Contato</a>
+                <a class="menu-links" href="https://fonts.googleapis.com">Contato</a>
               </li>
               <li>
-                <a class="links-nav" href="https://fonts.googleapis.com">Horarios</a>
+                <a class="menu-links" href="https://fonts.googleapis.com">Horarios</a>
               </li>
           </ul>
         </nav>
@@ -39,12 +40,12 @@
   <form action="https://www.google.com/?hl=pt_BR" method="POST" enctype="multipart/form-data">
     <label class="Identifier">
       Endereço de e-mail
-      <input type="email" class="INPUTS" required="" autofocus="" placeholder="Example@gmail.com">
+      <input type="email" class="INPUTS" required="" autofocus="" placeholder="Example@gmail.com" id="email">
     </label>
     
     <label class="Identifier">
       Confirme o seu endereço de e-mail
-      <input type="email" class="INPUTS" required="">
+      <input type="email" class="INPUTS" required="" placeholder="Confirme seu email..." id="confirmarEmail">
     </label>
     
     <label class="Identifier">
@@ -73,12 +74,14 @@
     </label>
     </div>
     
-      <button type="submit" formtarget="">
+      <button type="submit" formtarget="" id="btn-cad-form">
         Criar
       </button>
 
       </div>
   
   </form>
+
+    <script src="JS/script.js"></script>
 </body>
 </html>
